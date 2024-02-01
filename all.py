@@ -17,6 +17,11 @@ for i in b:
         min=i
 print(min)#to find smallest no
 
+c=[10,20,30,10,40,50]
+y=c.index(10)
+c[y]=100
+print(c)
+
     
 
 
