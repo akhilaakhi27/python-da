@@ -20,6 +20,22 @@ def mul(x):
     print(m)
 mul(b)
 
+x=int(input("Enter a no."))
+def p(y):
+    if y==1:
+        print("not a prime")
+    elif y > 1:
+        for i in range(2,y):
+            if( y % i==0):
+                print("not prime")
+                break
+        else:
+            print("prime")
+    else:
+        print("prime number")
+        
+p(x)
+
 
 
 
