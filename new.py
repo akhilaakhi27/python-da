@@ -14,5 +14,12 @@ print(s)
 n=[i for i in range(1,7)]
 print(n)
 
+m=[i for i in range(1,11) if i<5]
+print(m)
+
+y=[i.upper() for i in fruit]
+print(y)
+
+
 
 
