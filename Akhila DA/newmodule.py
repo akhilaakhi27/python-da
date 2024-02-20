@@ -1,6 +1,22 @@
 import modules
 import math
 import random
+import datetime
+
+x=datetime.datetime.now()
+print(x)
+print(x.year)
+print(x.time())
+print(x.month)
+print(x.strftime("%B"))#month
+print(x.strftime("%b"))
+print(x.strftime("%A"))#day
+print(x.strftime("%a"))
+print(x.strftime("%S"))
+print(x.strftime("%H"))
+print(x.strftime("%M"))
+
+
 a=modules.sum(2,3)
 print(a)
 
@@ -29,6 +45,21 @@ print(random.random())#prints random no b/w 0 and 1
 
 list=[1,"apple",2.5,True]
 print(random.choice(list))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
