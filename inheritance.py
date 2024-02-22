@@ -17,6 +17,21 @@ obj.myfun()
 #4 hierarchical-same parent class more than 1 child class
 #5 hybrid-multiple inheritance
 
+class animal:
+    def __init__(self,name,sound):
+        self.name=name
+        self.sound=sound
+    def speak(self):
+        print("the",self.name,self.sound)
+class cat(animal):
+    pass
+s=cat("cat","meow")
+class dog(animal):
+    pass
+S=dog("dog","bark")
+s.speak()
+S.speak()
+
 
 
 
