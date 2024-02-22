@@ -32,6 +32,21 @@ S=dog("dog","bark")
 s.speak()
 S.speak()
 
+class employee:
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+    def fun(self):
+        print(self.name,"has a salary of",self.salary)
+class manager(employee):
+    pass
+c=manager("Ramesh",50000)
+class receptionist(employee):
+    pass
+C=receptionist("Hari",20000)
+c.fun()
+C.fun()
+
 
 
 
